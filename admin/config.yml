@@ -12,21 +12,11 @@ collections:
   - name: "site"
     label: "Site Settings"
     files:
-    - label: "Site CSS yml"
-      name: "css_yml"
-      file: "site_customization/css.yml"
-      fields:
-        - { label: "Site CSS", name: "body", widget: "code", default_language: 'css' }
-    - label: "Site CSS md"
-      name: "css_md"
-      file: "site_customization/css.md"
-      fields:
-        - { label: "Site CSS", name: "body", widget: "code", default_language: 'css' }
-    - label: "Site CSS json"
-      name: "css_json"
+    - label: "Site CSS"
+      name: "css"
       file: "site_customization/css.json"
       fields:
-        - { label: "Site CSS", name: "body", widget: "code", default_language: 'css' }
+        - { label: "Site CSS", name: "css", widget: "code", default_language: 'css' }
   # Blogs
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
