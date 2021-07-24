@@ -1,2 +1,5 @@
 body:
-  code: test
+  code: |-
+    test
+    more tests
+  lang: css
