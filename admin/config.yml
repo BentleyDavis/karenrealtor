@@ -16,8 +16,7 @@ collections:
       name: "css"
       file: "site_customization/css.yml"
       fields:
-        - { label: "Title", name: "title", widget: "string" }
-        - { label: "CSS", name: "css", widget: "code", lang: 'css' }
+        - { label: "Site CSS", name: "body", widget: "code", lang: 'css' }
   # Blogs
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
