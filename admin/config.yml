@@ -11,13 +11,13 @@ collections:
   # Site Settings
   - name: "site" # Used in routes, e.g., /admin/collections/blog
     label: "Site Settings"
-    folder: "site_customization"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "CSS", name: "css", widget: "code", lang: 'css' }
-      - { label: "Footer", name: "footer", widget: "code", lang: 'html' }
+        files:
+      - label: "Site CSS"
+        name: "css"
+        file: "site_customization/css.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "CSS", name: "css", widget: "code", lang: 'css' }
   # Blogs
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
