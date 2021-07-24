@@ -14,7 +14,7 @@ collections:
     files:
     - label: "Site CSS"
       name: "css"
-      file: "site_customization/css.yml"
+      file: "site_customization/css.md"
       fields:
         - { label: "Site CSS", name: "body", widget: "code", lang: 'css' }
   # Blogs
