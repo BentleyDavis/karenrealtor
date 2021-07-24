@@ -9,15 +9,15 @@ media_folder: "static/img" # Media files will be stored in the repo under images
 
 collections:
   # Site Settings
-  - name: "site" # Used in routes, e.g., /admin/collections/blog
+  - name: "site"
     label: "Site Settings"
-        files:
-      - label: "Site CSS"
-        name: "css"
-        file: "site_customization/css.yml"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "CSS", name: "css", widget: "code", lang: 'css' }
+    files:
+    - label: "Site CSS"
+      name: "css"
+      file: "site_customization/css.yml"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "CSS", name: "css", widget: "code", lang: 'css' }
   # Blogs
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
