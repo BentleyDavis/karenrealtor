@@ -15,8 +15,10 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "CSS", name: "css", widget: "code", lang: 'css' }
       - { label: "Footer", name: "footer", widget: "code", lang: 'html' }
+  # Blogs
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
