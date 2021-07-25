@@ -1,9 +1,9 @@
 ---
+layout: layouts/base.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-autoTitle: false
-layout: layouts/base.njk
+hideTitle: true
 eleventyNavigation:
   key: Home
   order: 0
