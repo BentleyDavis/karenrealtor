@@ -14,4 +14,4 @@ eleventyNavigation:
     height: auto;
     position: absolute;
     width: 100%; top:0;
-    z-index: -1;" src="/static/img/14408125_1_0.jpg">
+    z-index: -1;" src="/static/img/hero.jpg">
