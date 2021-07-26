@@ -59,6 +59,12 @@ collections:
         file: "site_customization/css.json"
         fields:
           - { label: "Site CSS", name: "css", widget: "code", default_language: 'css', output_code_only: true }
+      - label: "Site CSS 2"
+        name: "css 2"
+        file: "site_customization/site.md"
+        format: "frontmatter"
+        fields:
+          - { label: "Site CSS", name: "body", widget: "code", default_language: 'css', output_code_only: true }
       - label: "Site Metadata"
         name: "metadata"
         file: "site_customization/metadata.json"
