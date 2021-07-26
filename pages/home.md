@@ -13,6 +13,9 @@ eleventyNavigation:
 header a[href], header a[href]:visited {
     color: white;
 }
+header nav li a[data-current="current item"] {
+    background-color: #0008;
+}
 </style>
 <img style="
     max-width: 100%;
