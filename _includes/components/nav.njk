@@ -1,4 +1,4 @@
-		<header>
+		<header class="header horizontal">
 			<em>
 				<a href="{{ '/' | url }}">
 					<svg version="1.1" viewBox="0 0 145 24" xmlns="http://www.w3.org/2000/svg" aria-label="Karen Cowser" style="fill:currentColor; max-width:700px;">
@@ -27,20 +27,19 @@
     </ul>
     <ul class="hamburger">
       <li>
-        <div data-current="current item" role="button" on="tap:sidebar1.toggle" tabindex="0">menu</div>
+        <div data-current="current item" role="button" on="tap:sidebarNav.toggle" tabindex="0">menu</div>
       </li>
     </ul>
   </nav>
-
-  <amp-sidebar id="sidebar1" layout="nodisplay" side="left" class="sidebar">
-    <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
-    <ul>
-    {%- for entry in navPages %}
-      <li>
-        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li>
-    {%- endfor %}
-    </ul>
-  </amp-sidebar>
-
 </header>
+
+<amp-sidebar id="sidebarNav" layout="nodisplay" side="left" class="sidebar header">
+  <div role="button" aria-label="close sidebar" on="tap:sidebarNav.toggle" tabindex="0" class="close-sidebar">✕</div>
+  <ul>
+  {%- for entry in navPages %}
+    <li>
+      <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+  </ul>
+</amp-sidebar>

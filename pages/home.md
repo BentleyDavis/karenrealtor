@@ -10,10 +10,13 @@ eleventyNavigation:
   order: 0
 ---
 <style>
-header a[href], header a[href]:visited {
+.header {
+    background: #0006;
+}
+.header a[href], header a[href]:visited {
     color: white;
 }
-header nav li a[data-current="current item"] {
+.header nav li a[data-current="current item"] {
     background-color: #0008;
 }
 </style>
@@ -21,5 +24,5 @@ header nav li a[data-current="current item"] {
     max-width: 100%;
     height: auto;
     position: absolute;
-    width: 100%; top:0; filter: saturate(1.2) brightness(70%);;
+    width: 100%; top:0; filter: saturate(1.2);
     z-index: -1;" src="/static/img/hero.jpg">
