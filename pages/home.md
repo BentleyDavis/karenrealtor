@@ -18,5 +18,5 @@ header a[href], header a[href]:visited {
     max-width: 100%;
     height: auto;
     position: absolute;
-    width: 100%; top:0; filter: saturate(1.2);
+    width: 100%; top:0; filter: saturate(1.2) brightness(70%);;
     z-index: -1;" src="/static/img/hero.jpg">
