@@ -9,9 +9,14 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
+<style>
+header a[href], header a[href]:visited {
+    color: white;
+}
+</style>
 <img style="
     max-width: 100%;
     height: auto;
     position: absolute;
-    width: 100%; top:0;
+    width: 100%; top:0; filter: saturate(1.2);
     z-index: -1;" src="/static/img/hero.jpg">
