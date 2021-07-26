@@ -14,5 +14,5 @@ eleventyNavigation:
     height: auto;
     position: absolute;
     width: 100%;
-    filter: sepia(100%) saturate(100%) brightness(70%) hue-rotate(79deg);
+    filter: sepia(100%) saturate(100%) brightness(70%) hue-rotate(79deg); top:0;
     z-index: -1;" src="/static/img/14408125_1_0.jpg">
