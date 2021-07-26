@@ -9,4 +9,10 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-<img src="/static/img/14408125_1_0.jpg">
+<img style="
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    filter: sepia(100%) saturate(100%) brightness(70%) hue-rotate(79deg);
+    z-index: -1;" src="/static/img/14408125_1_0.jpg">
