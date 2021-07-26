@@ -8,4 +8,6 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
- body
+![](/static/img/14408125_1_0.jpg)
+
+<img src="/static/img/14408125_1_0.jpg">
