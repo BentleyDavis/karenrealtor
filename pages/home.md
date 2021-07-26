@@ -2,12 +2,11 @@
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
+wide: true
 hideTitle: true
 layout: layouts/base.njk
 eleventyNavigation:
   key: Home
   order: 0
 ---
-![](/static/img/14408125_1_0.jpg)
-
 <img src="/static/img/14408125_1_0.jpg">
