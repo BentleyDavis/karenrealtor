@@ -14,7 +14,8 @@ eleventyNavigation:
     background: #40E0D0dd;
 }
 .header a[href], header a[href]:visited {
-    color: #000a;
+    background-color: transparent;
+    border-bottom: 5px solid yellow;
 }
 .header nav li a[data-current="current item"] {
     background-color: #40E0D0dd;
