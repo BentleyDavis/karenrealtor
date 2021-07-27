@@ -14,11 +14,11 @@ eleventyNavigation:
     background: #40E0D0dd;
 }
 .header a[href], header a[href]:visited {
-    background-color: transparent;
-    border-bottom: 5px solid yellow;
+    color: #000a;
 }
 .header nav li a[data-current="current item"] {
-    background-color: #40E0D0dd;
+    background-color: transparent;
+    border-bottom: 5px solid yellow;
 }
 </style>
 <img style="
