@@ -3,8 +3,17 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const fs = require("fs");
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.addShortcode("file", function (filePath) {
+    if (fs.existsSync(filePath)) {
+      return fs.readFileSync(filePath, "utf-8");
+    }
+    //If the file doesn't exist, try it with out the last ectension eg. site.css.md might be site.css temporairly
+    return fs.readFileSync(filePath.substring(0, filePath.lastIndexOf(".")), "utf-8");
+  })
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);

@@ -9,17 +9,6 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-<style>
-.header {
-    background: #0006;
-}
-.header a[href], header a[href]:visited {
-    color: white;
-}
-.header nav li a[data-current="current item"] {
-    background-color: #0008;
-}
-</style>
 <img style="
     max-width: 100%;
     height: auto;

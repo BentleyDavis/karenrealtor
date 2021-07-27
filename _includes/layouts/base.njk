@@ -5,15 +5,16 @@
 
 	<body>
 
-		{% include "components/nav.njk" %}
+			{% include "components/nav.njk" %}
+		<div>
 
-		{% if not hideTitle %}<h1>{{ title }}</h1>{% endif %}
-		{% if not wide %}<main>{% endif %}
-			{{ layoutContent | safe }}
-		{% if not wide %}</main>{% endif %}
+			{% if not hideTitle %}<h1>{{ title }}</h1>{% endif %}
+			{% if not wide %}<div class="content">{% endif %}
+				{{ layoutContent | safe }}
+			{% if not wide %}</div>{% endif %}
 
-		{% include "components/footer.njk" %}
+			{% include "components/footer.njk" %}
 
+		</div>
 	</body>
-
 </html>

@@ -1,4 +1,8 @@
 ---
 permalink: /site.css
 ---
-{{ css.css | cssmin | safe }}
+{% set css %}
+  {% file './site_customization/base.css.md' %}
+  {% file './site_customization/custom.css.md' %}
+{% endset %}
+{{ css | cssmin | safe }}

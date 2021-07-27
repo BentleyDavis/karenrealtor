@@ -12,10 +12,13 @@
   <link rel="dns-prefetch" href="https://identity.netlify.com">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  <style  amp-custom>{{ css.css | cssmin | safe }}</style>
 
-  {% set js %}
-    {% include "assets/js/inline.js" %}
+  {% set css %}
+    {% file './site_customization/base.css.md' %}
+    {% file './site_customization/custom.css.md' %}
   {% endset %}
+  <style  amp-custom>{{ css | cssmin | safe }}</style>
+
+  {% set js %}{% include "assets/js/inline.js" %}{% endset %}
   <script>{{ js | jsmin | safe }}</script>
 </head>
