@@ -6,8 +6,12 @@
 	--nav-break: 800px;
 }
 
-.header {
-    background: rgba(64,224,208,.8);
+.header-section {
+    background: rgba(64,224,208,.85);
+}
+
+.header-section .content{
+	padding: 1em;
 }
 
 .header,
@@ -16,7 +20,8 @@
     color: #000a;
 }
 
-.header nav li a[data-current="current item"] {
+.header nav li a[data-current="current item"],
+.header nav li span[data-current="current item"] {
     background-color: transparent;
     border-bottom: 5px solid yellow;
 }

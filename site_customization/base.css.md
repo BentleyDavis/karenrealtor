@@ -51,7 +51,7 @@ footer,
 	padding-bottom: 2em;
 }
 
-.content :first-child,
+.content > :first-child,
 .content > article :first-child {
 	margin-top: 0;
 }
@@ -74,11 +74,11 @@ pre {
 }
 
 /* Header Logo (style as h2) */
+
 header > em {
 	display: inline-block;
 	flex: 1;
 	font-size: 2em;
-	margin: .67em 0;
 	font-weight: bold;
 	font-style: normal;
 }
@@ -103,7 +103,7 @@ header > em {
 }
 
 .header li a,
-.header li div
+.header li span
 {
 	padding: .25em .5em;
 	border-radius: .25em;
@@ -118,20 +118,20 @@ header > em {
 	background-color: white;
 }
 
+.hamburger,
+nav,
+nav ul {
+	display: inline-block;
+}
+
 .hamburger {
-  padding-left: 10px;
   display: none;
   cursor: pointer;
 }
 
-header nav,
-header nav ul {
-	display: inline-block;
-}
-
 @media (max-width: 800px) {
   .hamburger {
-    display: inline;
+    display: inline-block;
   }
   .header-nav{
     display: none;
