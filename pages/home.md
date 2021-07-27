@@ -11,7 +11,7 @@ eleventyNavigation:
 ---
 <style>
 .header {
-    background: #40E0D0dd;
+    background: linear-gradient(0deg, rgba(64,224,208,0) 0%, rgba(64,224,208,.7) 20%);
 }
 .header a[href], header a[href]:visited {
     color: #000a;
