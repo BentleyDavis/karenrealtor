@@ -9,9 +9,8 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-<img style="
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    width: 100%; top:0; filter: saturate(1.2);
-    z-index: -1;" src="/static/img/hero.jpg">
+<div style="
+    background: url(/static/img/hero.jpg);
+    height: 80vh;
+    background-size: cover;
+"></div>
