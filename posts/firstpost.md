@@ -5,7 +5,7 @@ metaDescription: This is a sample meta description. If one is not present in
   instead.
 date: 2021-07-31T15:00:19.880Z
 author: Karen Cowser
-summary: Welcome to my blog
+summary: " "
 tags:
   - Homes
   - Mansfield
