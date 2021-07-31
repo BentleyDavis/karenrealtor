@@ -9,10 +9,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-<div style="
-    background: url(/static/img/hero.jpg);
+<div style="background: url(/static/img/hero.jpg);
     height: 75vh;
     background-size: cover;
-    background-position: center;
-
-"></div>
+    background-position: center;"></div>
