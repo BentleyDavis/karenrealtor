@@ -11,6 +11,8 @@ eleventyNavigation:
 ---
 <div style="
     background: url(/static/img/hero.jpg);
-    height: 80vh;
+    height: 75vh;
     background-size: cover;
+    background-position: center;
+
 "></div>
