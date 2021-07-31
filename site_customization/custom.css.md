@@ -8,7 +8,7 @@
 }
 
 .header-section {
-    background: var(---primary);
+    background: var(--primary);
 }
 
 .header-section .content{
